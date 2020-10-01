@@ -22,10 +22,9 @@ If enumerable set to true then
          key2
 */
 
-
 // =================================================================
-
 // Accessor properties
+
 const obj1 = {
   name: 'A',
   get lname() {
@@ -51,7 +50,6 @@ console.log(obj1.name)
 // Output: AK
 
 // =================================================================
-
 // How to set/modify a property attribute?
 
 const obj2 = {};
