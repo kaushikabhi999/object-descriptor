@@ -141,3 +141,21 @@ console.log(allDesc);
   }
 }
 */
+
+
+const obj4 = {
+  x: 5,
+  y: 6
+};
+
+const descp = Object.getOwnPropertyDescriptor(obj4, 'y');
+console.log(descp)
+/*
+{
+  value: 6,
+  writable: true,
+  enumerable: true,
+  configurable: true
+}
+*/
+
